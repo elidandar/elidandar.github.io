@@ -5,10 +5,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
+	<!-- 	This is the "Head" of the HTML document.
+			It contains information that isn't displayed on the actual page, but is useful
+			for the web browser when loading the page
+		-->
 
 <head>
 	<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
@@ -21,16 +21,16 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
+				If you want to edit the styling of this page, you should edit the file assets/css/main.css
+				If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+				<link rel="stylesheet" href="assets/css/my-new-css-file.css"/>
 		-->
-	<meta name="keywords" content="PHD, Computer Science, Elijah Danquah Darko"/> 
+	<meta name="keywords" content="PHD, Computer Science, Elijah Danquah Darko"/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
 			will load a separate set of CSS stylings from the file assets/css/noscript.css
 			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
+			available.
 		-->
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -52,17 +52,17 @@
 					<h1>
 						Elijah Danquah Darko
 					</h1>
-					<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
+					<!-- 	Here is an image where you can put a picture of you.
+										You can change the width and height attributes below to change how large
+										your image is.
 
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
+										Try adding "border-radius: 50%;" to the style attribute.
+									-->
 					<img src="images/prof.jpg" style="width:250px; height:350px; object-fit: cover;">
 
 					<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
+										a short line about yourself.
+									-->
 					<p>
 						Computer Science PhD Student <br> University of Idaho, Machine Intelligence and Data Analytics (MIDA) Lab
 					</p>
@@ -80,8 +80,8 @@
 					<!-- This is a "List Item" -->
 					<li>
 						<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
+											the element with the id "about" exists.
+										-->
 						<a href="#about">About Me</a>
 					</li>
 					<li>
@@ -94,20 +94,17 @@
 						<a href="#contact">Contact</a>
 					</li>
 					<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-					<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
+										another List Item with a link inside of it.
+									-->
 				</ul>
 			</nav>
 		</header>
 
 		<!-- These are the "cards" that appear when you click the buttons on the main page -->
 		<div id="main">
-			<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
+			<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous
+								button links to.
+							-->
 			<article id="about">
 				<h2 class="major">About Me</h2>
 				<!-- Here is an image that you can customize for this page -->
@@ -144,7 +141,24 @@
 				</p>
 				<p>
 					<b>Current Projects:</b><br>
-					Coming soon
+					<span class="feed">
+						<a href="#" class="feed-title"><strong>AI-Driven Segmentation Systems</strong></a>
+						<p class="feed-description">Developing real-time object detection and segmentation frameworks for healthcare applications.</p>
+					</span>
+				</p>
+				<p>
+					<b>Publications:</b>
+					<div class="feed">
+						<div class="feed-item">
+							<a href="https://scholar.google.com/citations?user=_ABoP8QAAAAJ&hl=en" class="feed-title">
+								<em>View all publications</em> &rarr;
+							</a>
+						</div>
+					</div>
+				</p>
+				<p>
+					<b>Tools & Technologies:</b><br>
+					Python • TensorFlow • PyTorch • OpenCV • Scikit-learn • NumPy • Pandas
 				</p>
 			</article>
 
@@ -161,26 +175,42 @@
 				</p>
 				<p>
 					<b>Outreach/Volunteering:</b><br>
-					Coming soon
+					<span class="feed">
+						<a href="#" class="feed-title"><strong>Mentoring & Teaching Assistant</strong></a>
+						<p class="feed-description">Mentoring graduate students and serving as TA for Deep Learning and Statistical Analysis courses.</p>
+					</span>
 				</p>
 				<p>
 					<b>News:</b><br>
-					• <b>2023:</b> Joined MIDA Lab at University of Idaho
+					<span class="feed">
+						<div class="feed-item">
+							<span class="feed-date"><strong>2026:</strong> </span>
+							<span class="feed-description">Contributing to open-source ML projects</span>
+						</div>
+						<div class="feed-item">
+							<span class="feed-date"><strong>2025:</strong> </span>
+							<span class="feed-description">First-author paper accepted at conference</span>
+						</div>
+						<div class="feed-item">
+							<span class="feed-date"><strong>2023:</strong> </span>
+							<span class="feed-description">Joined MIDA Lab at University of Idaho</span>
+						</div>
+					</span>
 				</p>
 			</article>
 
 			<!-- Here is a the "Contact" card. -->
 			<article id="contact">
-				<h2 class="major">Contact</h2>				
+				<h2 class="major">Contact</h2>
 				<p>
 					<b>Email: elidandar@gmail.com</b>
 				</p>
-				
+
 				<!--
-							<p> 
-								<b>Address:</b> 
-							</p>
-							 -->
+								<p>
+									<b>Address:</b>
+								</p>
+								 -->
 
 				<!-- 	Here are the fancy icons that link to your social media.
 								These icons are rendered using Font Awesome fonts, and you can find more icons
@@ -204,8 +234,8 @@
 					<!-- The Twitter icon -->
 					<li>
 						<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
+											Replace "#" with your Twitter profile page.
+										-->
 						<a href="#" class="icon fa-twitter">
 							<span class="label">Twitter</span>
 						</a>
@@ -223,12 +253,12 @@
 							<span class="label">GitHub</span>
 						</a>
 					</li>
-				<!-- The Google Scholar icon -->
-				<li>
-					<a href="https://scholar.google.com/citations?user=_ABoP8QAAAAJ&hl=en" class="icon fa-book" target="_blank">
-						<span class="label">Google Scholar</span>
-					</a>
-				</li>
+					<!-- The Google Scholar icon -->
+					<li>
+						<a href="https://scholar.google.com/citations?user=_ABoP8QAAAAJ&hl=en" class="icon fa-book" target="_blank">
+							<span class="label">Google Scholar</span>
+						</a>
+					</li>
 				</ul>
 			</article>
 		</div>
@@ -236,19 +266,19 @@
 		<!-- This is the footer that appears at the bottom of the page -->
 		<footer id="footer">
 			<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-				<p class="copyright">&copy; 2026 Elijah Danquah Darko. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								this is your work.
+							-->
+			<p class="copyright">&copy; 2026 Elijah Danquah Darko. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 		</footer>
 
 	</div>
 
 	<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
+					All configuration of the background is done with CSS.
+					Look in the file assets/css/main.css and search for "#bg" to
+					see how this element is styled. Look for comments pointing
+					to where you can set a new background image.
+				-->
 	<div id="bg"></div>
 
 	<!-- Scripts -->

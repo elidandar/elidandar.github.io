@@ -1647,3 +1647,45 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+/* Feed styling for research/projects/news */
+
+.feed {
+	padding: 2rem 0;
+}
+
+	.feed-title {
+		display: block;
+		color: #ffffff;
+		text-decoration: none;
+		line-height: 1.5;
+		font-weight: 600;
+	}
+
+		.feed-title:hover {
+			border-bottom-color: transparent;
+		}
+
+	.feed-description {
+		display: block;
+		margin-top: 0.5rem;
+		font-size: 0.85rem;
+		color: rgba(255, 255, 255, 0.7);
+		line-height: 1.6;
+	}
+
+	.feed-item {
+		margin-bottom: 1.5rem;
+	}
+
+		.feed-item:last-child {
+			margin-bottom: 0;
+		}
+
+		.feed-date {
+			display: block;
+			font-size: 0.7rem;
+			color: rgba(255, 255, 255, 0.5);
+			letter-spacing: 0.1rem;
+			text-transform: uppercase;
+		}
